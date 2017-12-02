@@ -1,0 +1,11 @@
+title: R-tutorials
+email: your-email@domain.com
+description: r-tutorials and code examples
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: kchafen
+github_username:  khafen74
+author: Konrad Hafen
+
+# Build settings
+markdown: kramdown
