@@ -9,3 +9,19 @@ author: Konrad Hafen
 
 # Build settings
 markdown: kramdown
+
+# Choosing "default" layout means we don't need a "layout:default" in all our 
+# front matter
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+exclude:
+    -src
+    -config.yml
+
+layouts_dir: src/_layouts
+includes_dir: src/_includes
